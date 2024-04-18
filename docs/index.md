@@ -5,7 +5,7 @@
 :maxdepth: 2
 :hidden:
 
-data_standards/
+data_standards/*
 example.ipynb
 changelog.md
 contributing.md
