@@ -7,7 +7,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u"dses"
-copyright = u"2024, Sneha S"
+copyright = u"2024, Sneha S for ARTPARK"
 author = u"Sneha S"
 
 # -- General configuration ---------------------------------------------------
