@@ -3,7 +3,6 @@
 
 ```{toctree}
 :maxdepth: 2
-:hidden:
 :glob:
 
 data_standards/*

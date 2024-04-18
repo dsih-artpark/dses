@@ -1,1 +1,9 @@
-# Different Users in Environmental Surveillance
+# Users
+
+```{toctree}
+:maxdepth: 2
+:hidden:
+:glob:
+
+**
+```

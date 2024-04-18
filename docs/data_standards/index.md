@@ -2,4 +2,10 @@
 
 Welcome to the Data Standards section.
 
-{{ toctree }}
+```{toctree}
+:maxdepth: 1
+:hidden:
+:glob:
+
+**
+```

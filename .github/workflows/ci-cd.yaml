@@ -24,4 +24,4 @@ jobs:
       run: poetry install
 
     - name: Build documentation
-      run: poetry run make html --directory docs/
+      run: poetry run make clean html --directory docs/
