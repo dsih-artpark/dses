@@ -1,25 +1,15 @@
-# dses
+# Data Standards for Environmental Surveillance (dses)
 
-A package for doing great things!
+This is the documentation for the data standards for environmental surveillance, developed by the Data Science Innovation Hub at [ARTPARK](https://artpark.in) at the [Indian Institute of Science](https://iisc.ac.in).
 
-## Installation
+The aim is to create a set of data standards, along the lines of [FHIR HL7](https://hl7.org/fhir/) that are fast to adopt, interoperable, and can be scaled to any kind of disease while allowing extensibility for any user's sepcific use-case.
 
-```bash
-$ pip install dses
-```
-
-## Usage
-
-- TODO
+If you are currently on Github - you can find the docs hosted at [dses.dsih.artpark.in](https://dses.dsih.artpark.in).
 
 ## Contributing
 
 Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
 
-## License
-
-`dses` was created by Sneha S. Sneha S retains all rights to the source and it may not be reproduced, distributed, or used to create derivative works.
-
 ## Credits
 
-`dses` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+Data Standards for Environmental Surveillance ([`dses`](https://github.com/dsih-artpark/dses)) was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter). The documentation is rendered using [`sphinx`](https://www.sphinx-doc.org/) and rendered and hosted using [`readthedocs.io`](https://readthedocs.io), and uses [`poetry`](https://python-poetry.org/) to manage dependencies in the rendering scripts.

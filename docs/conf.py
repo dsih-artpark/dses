@@ -10,7 +10,7 @@ import sys
 # -- Project information -----------------------------------------------------
 
 project = u"dses"
-copyright = u"2024, Sneha S for ARTPARK"
+copyright = u"2024, Sneha S for the Data Science Innovation Hub, ARTPARK, IISc"
 author = u"Sneha S"
 
 # -- General configuration ---------------------------------------------------

@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "dses"
 version = "0.1.0"
-description = "A package for doing great things!"
+description = "Inter-operable Data Standards for Environmental Surveillance"
 authors = ["Sneha S"]
 license = "None"
 readme = "README.md"
@@ -15,6 +15,7 @@ python = "^3.9"
 myst-nb = {version = "^1.1.0", python = "^3.9"}
 sphinx-autoapi = "^3.0.0"
 sphinx-rtd-theme = "^2.0.0"
+sphinx-autobuild = "^2024.4.16"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
