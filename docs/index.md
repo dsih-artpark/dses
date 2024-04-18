@@ -1,12 +1,11 @@
 ```{include} ../README.md
 ```
 
-## [Data Standards](data_standards/)
-
 ```{toctree}
 :maxdepth: 2
 :hidden:
 
+data_standards/
 example.ipynb
 changelog.md
 contributing.md
