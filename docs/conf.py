@@ -4,6 +4,9 @@
 # list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+import os
+import sys
+
 # -- Project information -----------------------------------------------------
 
 project = u"dses"
@@ -34,3 +37,18 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # a list of builtin themes.
 #
 html_theme = "sphinx_rtd_theme"
+
+# -- Options for Markdown rendering ------------------------------------------
+
+# Add the data_standards directory to the source directory
+source_dir = os.path.abspath(os.path.dirname(__file__))
+data_standards_dir = os.path.join(source_dir, "data_standards")
+
+# Include data_standards directory for Markdown rendering
+myst_include_patterns = [data_standards_dir]
+
+# Recursively include subdirectories of data_standards
+myst_include_directories = [data_standards_dir]
+
+# If you want to customize how files in data_standards are rendered,
+# you can do so using the `myst_custom_renderers` setting.

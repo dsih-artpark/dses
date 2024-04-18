@@ -1,8 +1,10 @@
 ```{include} ../README.md
 ```
 
+## [Data Standards](data_standards/)
+
 ```{toctree}
-:maxdepth: 1
+:maxdepth: 2
 :hidden:
 
 example.ipynb
