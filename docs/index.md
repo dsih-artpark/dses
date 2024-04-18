@@ -10,5 +10,4 @@ example.ipynb
 changelog.md
 contributing.md
 conduct.md
-autoapi/index
 ```
