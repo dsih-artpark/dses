@@ -1,0 +1,8 @@
+attribute category,attribute,flags,"description, example, and binding",type
+meta,uuid,"-i, -m",UUID based on UUID4 from RFC4122. Example: urn:uuid:f71dab9c-d12a-400d-b49a-5f4972bb4c23,PrimitiveType.uri.uuid
+,id,,Alphanumerical ID assigned after database reconciliation.,
+info,name,,,
+,email,,,
+,phoneNumber,,,
+,organisation,,,
+,pinCode,,,

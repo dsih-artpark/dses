@@ -9,6 +9,7 @@ Welcome to the Data Standards section.
     :maxdepth: 2
     :glob:
 
-    getting_started.md
-    roles/index.md
-    users/index.md
+    terminologies.rst
+    users.rst
+    samples.rst
+    
