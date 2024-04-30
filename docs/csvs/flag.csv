@@ -1,0 +1,7 @@
+flag,expansion,description
+-i,immutable,used when a given attribute is immutable in a given database/resource
+-m,mandatory,this attribute must be filled for each entry and any entry that does not have this attribute must be rejected by any application's database
+-v,validate,"used when an attribute is auto-collected or computed from other collected information, but is also, usually optionally, collected manually as well, for validation on the back end. Example of this is accepting the name of the subdistrict or village during sample collection, which is normally imputed from lat-long or from the user's sample collection site or assigned area."
+-p,private,"used for any sensitive information, also referred to as Personally Identifiable Information. This information is not available to users accessing the data through RESTFul APIs, or any other alternative means of access. (Retention Policy: TODO)"
+-a,automatic,data is autofilled
+-ao,automatic but can be overriden,for information that can be overriden by the user

@@ -1,0 +1,48 @@
+attribute category,attribute,flags,"description, example, and binding",type
+meta,uuid,"-i, -m",UUID based on UUID4 from RFC4122. Example: urn:uuid:f71dab9c-d12a-400d-b49a-5f4972bb4c23,PrimitiveType.uri.uuid
+,sampleCollectorUUID,"-i, -m",User/meta.uuid,
+,barcode,"-i, -m, -a","Number scanned from the barcode, assigned to the database entry automatically",
+,accessionIDs,,"Accession to various other standard databases. Stored in JSON, XML, or YAML format.
+
+{ 
+ { system: ""https://gisaid.org/""
+   code: ""MyGISAID_AccessionID"",
+   display: ""GISAID Accession ID""
+  },
+ { system: ""https://www.ncbi.nlm.nih.gov/genbank/""
+   code: ""MyGenBank_AccessionID"",
+   display: ""Genbank Accession""
+  }
+}
+
+extensible to support any database ID.",
+,diseaseOfInterest,-m,"Code based on existing standards, e.g. ICD11 and SNOMED-CT. Like with accession IDs, multiple codes are supported
+
+{
+    ""system"": ""https://icd.who.int/browse/2024-01/mms/en#/http://id.who.int/icd/entity/1959883044"",
+    ""value"": ""1F05.3"",
+    ""display"": ""Foot and Mouth Disease""
+}",
+,CollectionDate,-a,Date of Sample Collection. Autofilled when barcode is scanned.,
+location,country,"-m, -v","Two letter Code based on ISO3166-1 A-2 (https://www.iso.org/iso-3166-country-codes.html).
+
+{
+    ""system"": ""https://www.iso.org/standard/72482.html"",
+    ""code"": ""IN"",
+    ""display"": ""INDIA""
+}",
+,geoLatLong,-m,"(longitude, latitude). It's recommended to retain 6 decimal points, but at least two are required.",
+,geoadmin,-v,"Store the highest Resolution ID associated with the sample, along with the hierarchy system used to collect it. (Wards vs Villages for Urban vs Rural, for e.g.)
+
+{
+    ""system"": ""https://lgd.gov.in"",
+    ""hierarchy"": ""ulb"",
+    ""code"": ""ward_276600-12"",
+    ""display"": ""DODDA BOMMASANDRA"",
+    ""parents"": [""zone_276600-10"", ""ulb_277600"",""state_29""]
+}",
+,pinCode,-v,e.g. 560012,
+collectionInfo,siteName,,string,
+,siteType,,,
+,sampleType,,"Terminology Binding (Milk/Soil/Feed/Water Runoff/Air, Slurry)",
+,storage,-ao,Terminology Binding (Room Temperature vs Cold Chain),
