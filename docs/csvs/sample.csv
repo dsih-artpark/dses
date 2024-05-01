@@ -4,16 +4,16 @@ meta,uuid,"-i, -m",UUID based on UUID4 from RFC4122. Example: urn:uuid:f71dab9c-
 ,barcode,"-i, -m, -a","Number scanned from the barcode, assigned to the database entry automatically",
 ,accessionIDs,,"Accession to various other standard databases. Stored in JSON, XML, or YAML format.
 
-{ 
- { system: ""https://gisaid.org/""
-   code: ""MyGISAID_AccessionID"",
-   display: ""GISAID Accession ID""
-  },
- { system: ""https://www.ncbi.nlm.nih.gov/genbank/""
-   code: ""MyGenBank_AccessionID"",
-   display: ""Genbank Accession""
+  { 
+    { ""system"": ""https://gisaid.org/"",
+      ""code"": ""MyGISAID_AccessionID"",
+      ""display"": ""GISAID Accession ID""
+      },
+    { ""system"": ""https://www.ncbi.nlm.nih.gov/genbank/"",
+      ""code"": ""MyGenBank_AccessionID"",
+      ""display"": ""Genbank Accession""
+    }
   }
-}
 
 extensible to support any database ID.",
 ,diseaseOfInterest,-m,"Code based on existing standards, e.g. ICD11 and SNOMED-CT. Like with accession IDs, multiple codes are supported

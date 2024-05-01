@@ -1,4 +1,4 @@
-Terminologies, Concepts and Conventions
+Terminologies, Concepts, and Conventions
 ========================================
 
  .. warning::
@@ -40,3 +40,16 @@ Terminologies, Concepts and Conventions
          :file: ../csvs/flag.csv
          :widths: 20,30,50
          :header-rows: 1
+
+.. code-block:: JSON
+
+  { 
+    { "system": "https://gisaid.org/",
+      "code": "MyGISAID_AccessionID",
+      "display": "GISAID Accession ID"
+      },
+    { "system": "https://www.ncbi.nlm.nih.gov/genbank/",
+      "code": "MyGenBank_AccessionID",
+      "display": "Genbank Accession"
+      }
+  }

@@ -1,0 +1,10 @@
+{ 
+    { "system": "https://gisaid.org/",
+      "code": "MyGISAID_AccessionID",
+      "display": "GISAID Accession ID"
+      },
+    { "system": "https://www.ncbi.nlm.nih.gov/genbank/",
+      "code": "MyGenBank_AccessionID",
+      "display": "Genbank Accession"
+      }
+  }

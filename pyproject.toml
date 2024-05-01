@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dses"
-version = "0.1.0"
+version = "0.1.1"
 description = "Inter-operable Data Standards for Environmental Surveillance"
 authors = ["Sneha S"]
 license = "None"
